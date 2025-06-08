@@ -113,10 +113,10 @@ pnpm wxt build
 
 ### 🔐 Permissions Used
 Permission	Purpose
-`storage` | Save tasks, timer states, focus logs, and AI insight caching
-`activeTab` | Required for certain UI permissions and future integrations
-`scripting` | Support site blocker dynamic control
-`host_permissions` | *://*/* to allow blocking or interaction with any tab
+- storage	Save tasks, timer states, focus logs, and AI insight caching.
+- activeTab	Required for certain UI permissions and future integrations.
+- scripting	Support site blocker dynamic control.
+- host_permissions	*://*/* to allow blocking or interaction with any tab.
 
 
 ### 👩‍💻 Author
