@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 400px; 
+  height: 600px;  
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ec7fa9;
+  border-radius: 4px;
+}
+
+/* Grainy Noise Overlay */
+.grainy-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.7; /* Adjust for stronger/weaker effect */
+  pointer-events: none;
+}
+
+/* Custom slider  */
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  margin: 0;
+  padding: 0;
+  border-radius: 4px;
+  background: white;
+  width: 100%;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 4px;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #ec7fa9;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid #f5ccdc;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  margin-top: -6px; /* Centers the thumb vertically */
+}
+
+input[type="range"]::-moz-range-track {
+  height: 8px;
+  border-radius: 4px;
+  background: transparent;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ec7fa9;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid #f5ccdc;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}

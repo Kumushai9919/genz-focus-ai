@@ -2,6 +2,20 @@
   "extends": "./.wxt/tsconfig.json",
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "jsx": "react-jsx"
-  }
+    "jsx": "react-jsx",
+    "types": ["chrome"],
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@utils/*": ["src/entrypoints/utils/*"],
+      "@components/*": ["src/entrypoints/popup/components/*"],
+      "@popup/*": ["src/entrypoints/popup/*"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  // "include": ["src/entrypoints/**/*"],
+  "exclude": ["node_modules"]
 }
