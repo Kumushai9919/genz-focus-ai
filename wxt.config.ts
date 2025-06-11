@@ -43,16 +43,12 @@ export default defineConfig({
       },
     },
     permissions: [
-      "storage",
-      "activeTab",
-      "scripting",
-      "declarativeNetRequest",
-      "tabs",
+      "storage", 
+      "declarativeNetRequest", 
     ],
     host_permissions: [
       "<all_urls>",
-      "https://www.googleapis.com/*",
-      "*://*/*",
+      "https://www.googleapis.com/*", 
       "*://*.google.com/*",
     ],
     background: {

@@ -5,8 +5,7 @@ type HeaderProps = {
 };
 
 const Header = ({ setActiveTab }: HeaderProps) => {
-  return (
-    // border-gray-200
+  return ( 
     <div className="flex justify-between items-center  whitespace-nowrap px-6 py-4 w-full border-b border-solid border-b-[#f1e9ed]">
       <button
         onClick={() => setActiveTab("timer")}
