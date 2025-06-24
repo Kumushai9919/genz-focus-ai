@@ -1,8 +1,19 @@
 # 🌟 "GenZ Focus AI" Chrome Extension – Your Gen Z Productivity Companion
 
+
+
 GenZ Focus AI is a beautifully designed Chrome extension crafted to help modern users stay focused, block distractions, and optimize their time with a touch of AI. With customizable timers, task tracking, site blockers, and friendly visual feedback, this extension transforms productivity into an engaging and empowering daily habit.
 
 ![Screenshot 2025-06-08 at 6 21 44 PM](https://github.com/user-attachments/assets/3d803a46-3da7-44de-8324-b251802834db)
+
+
+## 🚀 Try It Now!
+
+<a href="https://chromewebstore.google.com/detail/genz-focus-ai/ijmibddbbenkciahmnjnifamnlnnpcnc?hl=en-US&utm_source=ext_sidebar">
+    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="Available in the Chrome Web Store" width="200px">
+</a>
+
+➡️ [Install GenZ Focus AI from Chrome Web Store](https://chromewebstore.google.com/detail/genz-focus-ai/ijmibddbbenkciahmnjnifamnlnnpcnc?hl=en-US&utm_source=ext_sidebar)
 
 
 ## ✨ Features
