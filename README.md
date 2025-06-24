@@ -8,10 +8,7 @@ GenZ Focus AI is a beautifully designed Chrome extension crafted to help modern 
 
 
 ## 🚀 Try It Now!
-
-<a href="https://chromewebstore.google.com/detail/genz-focus-ai/ijmibddbbenkciahmnjnifamnlnnpcnc?hl=en-US&utm_source=ext_sidebar">
-    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="Available in the Chrome Web Store" width="200px">
-</a>
+ 
 
 ➡️ [Install GenZ Focus AI from Chrome Web Store](https://chromewebstore.google.com/detail/genz-focus-ai/ijmibddbbenkciahmnjnifamnlnnpcnc?hl=en-US&utm_source=ext_sidebar)
 
